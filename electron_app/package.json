@@ -2,7 +2,7 @@
   "name": "rpg-chat",
   "productName": "RPG Chat",
   "main": "src/electron-main.js",
-  "version": "0.1.0-dev",
+  "version": "0.2.0-dev",
   "description": "Desktop client for RPG Chat.",
   "author": "Fabric Labs",
   "dependencies": {

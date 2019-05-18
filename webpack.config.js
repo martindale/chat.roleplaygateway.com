@@ -13,7 +13,7 @@ module.exports = {
         "bundle": ["babel-polyfill", "./src/vector/index.js"],
         "indexeddb-worker": "./src/vector/indexeddb-worker.js",
 
-        "mobileguide": "./src/vector/mobile_guide/index.js",
+        "releases": "./src/releases/index.js",
 
         // CSS themes
         "theme-light": "./node_modules/matrix-react-sdk/res/themes/light/css/light.scss",
