@@ -1,3 +1,130 @@
+Changes in [1.1.2](https://github.com/vector-im/riot-web/releases/tag/v1.1.2) (2019-05-15)
+==========================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.1.1...v1.1.2)
+
+ * react-sdk v1.1.2 to fix single sign-on and GIF autoplaying
+
+Changes in [1.1.1](https://github.com/vector-im/riot-web/releases/tag/v1.1.1) (2019-05-14)
+==========================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.1.0...v1.1.1)
+
+ * react-sdk v1.1.1 to fix regressions with registration
+
+Changes in [1.1.0](https://github.com/vector-im/riot-web/releases/tag/v1.1.0) (2019-05-07)
+==========================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.1.0-rc.1...v1.1.0)
+
+ * Add Dockerfile
+   [\#9632](https://github.com/vector-im/riot-web/pull/9632)
+ * Add Dockerfile (part 2)
+   [\#9426](https://github.com/vector-im/riot-web/pull/9426)
+ * Add new scalar staging url
+   [\#9601](https://github.com/vector-im/riot-web/pull/9601)
+
+Changes in [1.1.0-rc.1](https://github.com/vector-im/riot-web/releases/tag/v1.1.0-rc.1) (2019-04-30)
+====================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.0.8...v1.1.0-rc.1)
+
+ * Convert redeploy.py to buildkite
+   [\#9577](https://github.com/vector-im/riot-web/pull/9577)
+ * Add package step to buildkite pipeline
+   [\#9568](https://github.com/vector-im/riot-web/pull/9568)
+ * Don't fail if there's no local config to remove
+   [\#9571](https://github.com/vector-im/riot-web/pull/9571)
+ * Change jenkins script to package script
+   [\#9567](https://github.com/vector-im/riot-web/pull/9567)
+ * Remove config.json from package dir
+   [\#9555](https://github.com/vector-im/riot-web/pull/9555)
+ * use the release version of olm 3.1.0
+   [\#9550](https://github.com/vector-im/riot-web/pull/9550)
+ * Fix default for --include arg
+   [\#9517](https://github.com/vector-im/riot-web/pull/9517)
+ * update installation instructions with new repo
+   [\#9500](https://github.com/vector-im/riot-web/pull/9500)
+ * Use packages.matrix.org for Olm
+   [\#9498](https://github.com/vector-im/riot-web/pull/9498)
+ * Add separate platform electron build commands
+   [\#9412](https://github.com/vector-im/riot-web/pull/9412)
+ * Add support for custom profile directory
+   [\#9408](https://github.com/vector-im/riot-web/pull/9408)
+ * Improved mobile install guide
+   [\#9410](https://github.com/vector-im/riot-web/pull/9410)
+ * Remove vector-electron-desktop from README
+   [\#9404](https://github.com/vector-im/riot-web/pull/9404)
+ * Update from Weblate
+   [\#9398](https://github.com/vector-im/riot-web/pull/9398)
+ * bump olm version to 3.1.0-pre3
+   [\#9392](https://github.com/vector-im/riot-web/pull/9392)
+ * Add expiration to mobile guide cookie
+   [\#9383](https://github.com/vector-im/riot-web/pull/9383)
+ * Fix autolaunch setting appearing toggled off
+   [\#9368](https://github.com/vector-im/riot-web/pull/9368)
+ * Don't try to save files the user didn't want to save
+   [\#9352](https://github.com/vector-im/riot-web/pull/9352)
+ * Setup crypto store for restore session tests
+   [\#9325](https://github.com/vector-im/riot-web/pull/9325)
+ * Update from Weblate
+   [\#9333](https://github.com/vector-im/riot-web/pull/9333)
+ * Add "Save image as..." button to context menu on images
+   [\#9326](https://github.com/vector-im/riot-web/pull/9326)
+ * Configure auth footer links through Riot config
+   [\#9297](https://github.com/vector-im/riot-web/pull/9297)
+
+Changes in [1.0.8](https://github.com/vector-im/riot-web/releases/tag/v1.0.8) (2019-04-16)
+==========================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.0.7...v1.0.8)
+
+ * No changes in this release. This is the same code as v1.0.7 from our new clean-room
+   packaging and signing infrastructure.
+
+Changes in [1.0.7](https://github.com/vector-im/riot-web/releases/tag/v1.0.7) (2019-04-08)
+==========================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.0.6...v1.0.7)
+
+ * Hotfix: bump js-sdk to 1.0.4, see https://github.com/matrix-org/matrix-js-sdk/releases/tag/v1.0.4
+
+Changes in [1.0.6](https://github.com/vector-im/riot-web/releases/tag/v1.0.6) (2019-04-01)
+==========================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.0.6-rc.1...v1.0.6)
+
+ * Add "Save image as..." button to context menu on images
+   [\#9327](https://github.com/vector-im/riot-web/pull/9327)
+
+Changes in [1.0.6-rc.1](https://github.com/vector-im/riot-web/releases/tag/v1.0.6-rc.1) (2019-03-27)
+====================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.0.5...v1.0.6-rc.1)
+
+ * Use `on_logged_in` action in tests
+   [\#9279](https://github.com/vector-im/riot-web/pull/9279)
+ * Convert away from `Promise.defer`
+   [\#9278](https://github.com/vector-im/riot-web/pull/9278)
+ * update react-sdk version in yarn lockfile
+   [\#9233](https://github.com/vector-im/riot-web/pull/9233)
+ * "Render simple counters in room header" details
+   [\#9154](https://github.com/vector-im/riot-web/pull/9154)
+ * Use medium agents for the more resource intensive builds
+   [\#9238](https://github.com/vector-im/riot-web/pull/9238)
+ * Add log grouping to buildkite
+   [\#9223](https://github.com/vector-im/riot-web/pull/9223)
+ * Switch to `git` protocol for CI dependencies
+   [\#9222](https://github.com/vector-im/riot-web/pull/9222)
+ * Support CI for matching branches on forks
+   [\#9212](https://github.com/vector-im/riot-web/pull/9212)
+ * Update from Weblate
+   [\#9199](https://github.com/vector-im/riot-web/pull/9199)
+ * Declare the officially supported browsers in the README
+   [\#9177](https://github.com/vector-im/riot-web/pull/9177)
+ * Document some desktop app things
+   [\#9011](https://github.com/vector-im/riot-web/pull/9011)
+ * Use Buildkite for CI
+   [\#9165](https://github.com/vector-im/riot-web/pull/9165)
+ * Update version number in issue templates
+   [\#9170](https://github.com/vector-im/riot-web/pull/9170)
+ * Remove node 8.x from the build matrix
+   [\#9159](https://github.com/vector-im/riot-web/pull/9159)
+ * Update Electron help menu link
+   [\#9157](https://github.com/vector-im/riot-web/pull/9157)
+
 Changes in [1.0.5](https://github.com/vector-im/riot-web/releases/tag/v1.0.5) (2019-03-21)
 ==========================================================================================
 [Full Changelog](https://github.com/vector-im/riot-web/compare/v1.0.4...v1.0.5)

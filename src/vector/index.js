@@ -278,8 +278,11 @@ async function loadApp() {
     if (!preventRedirect) {
         const isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
         const isAndroid = /Android/.test(navigator.userAgent);
+        const isMobileReady = true;
+
+        if (isMobileReady) return;
         if (isIos || isAndroid) {
-            if (!document.cookie.split(';').some((c) => c.startsWith('mobile_redirect_to_guide'))) {
+            if (document.cookie.indexOf("redirect_mobile_to_releases=false") === -1) {
                 window.location = "releases/";
                 return;
             }
